@@ -1,0 +1,269 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    padding: 30px 30px 30px 30px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.header ul li:hover{
+    animation: hover 1s;
+    background-color: aqua;
+    color: aliceblue;
+}
+
+@keyframes hover {
+    from{
+        transform: scale(0.6);
+    }
+    to{
+        transform: scale(1);
+    }
+    
+}
+
+.header button{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 8%;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+.header button{
+    animation: btn 2s;
+    font-size: 25px;
+}
+@keyframes btn {
+    from{
+        transform: translate(-3000px);
+    }
+    to{
+        transform: translate(0px);
+    }
+    
+}
+
+@keyframes left {
+    from{
+        text-replace: transform(-700px);
+    }
+
+    to{
+        transform: translate(0px);
+    }
+    
+}
+
+
+.image1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2hgcY-4ob25GtgKUPbnHqtqYC9m8x8Ipi7w&s");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.image1 {
+    padding: 50px 50px 50px 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.image1 h1{
+    font-size: 120px;
+    
+}
+
+.inside{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+.inside h4{
+    background-color: aliceblue;
+    color: black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.inside h5{
+    padding-top: 20px;
+}
+
+
+
+.image2{
+    display: flex;
+    gap: 50px;
+    padding: 100px 100px 100px 100px;
+}
+
+.inside1 button{
+    background-color: yellow;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    
+    
+}
+
+
+.p3{
+    margin-top: 40px;
+    padding: 45px 45px 45px 45px;
+}
+
+.p3 ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    list-style: none;
+    margin-top: 45px;
+}
+
+.p4{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 75px 75px 75px 75px;
+}
+
+.inside3{
+    gap: 30px;
+}
+
+.suport{
+    padding-top: 70px;
+    gap: 45px;
+}
+
+.image1{
+    background-image:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWTyjYsagkOCW5tHCBd1S7_eeOIBO5oZ7IOw&s");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+.inside4 h4{
+    background-color: rgb(252, 231, 6);
+    color: black;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.inside4{
+    display: flex;
+    gap: 30px;
+    
+    padding-top: 45px;
+}
+
+.inside4 button{
+    width: 8%;
+}
+
+.p5{
+    padding:  50px 50px 50px 50px;
+}
+
+.inside2{
+    display: flex;
+    gap: 15px;
+}
+
+.inside2 h3{
+    background-color: yellow;
+    padding: 45px 45px 45px 45px;
+    margin-top: 30px;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    padding: 50px 50px 50px 50px;
+}
+.inside2 i{
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 10px;
+}
+
+.p6{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Subscribe{
+    width: 100%;
+    height: 100px;
+    padding-left: 900px;
+}
+
+.Subscribe input{
+    background-color: black;
+    color: gray ;
+    width: 200px;
+    height: 30px;
+}
+
+.Subscribe button{
+    background-color: aliceblue;
+    color: black;
+    width: 100px;
+    height: 40px;
+}
+
+    
+    @media (max-width: 760px) {
+        .header{
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .header ul{
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        .header button{
+            width: 100px;
+        }
+
+        .image1 H1{
+            font-size: 30px;
+            width: 300px;
+            height: 100px;
+        }
+        .inside{
+            flex-direction: column;
+            padding-left: 10px;
+        }
+    
+        
+    }
